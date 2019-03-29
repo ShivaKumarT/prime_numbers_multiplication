@@ -7,5 +7,6 @@ Programming Language: Erlang v19+
 
 ### Build & Execution Steps
 ```shell
-    $ git clone 
+    $ git clone https://github.com/ShivaKumarT/prime_numbers_multiplication.git
+    
 ```
