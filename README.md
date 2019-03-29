@@ -1,9 +1,11 @@
 # Multiplication Table of Prime Numbers
-=====
 
-An OTP application
+### System Requirements
+-------------------
+Operating System: Linux\
+Programming Language: Erlang v19+
 
-Build
------
-
-    $ rebar3 compile
+### Build & Execution Steps
+```shell
+    $ git clone 
+```
