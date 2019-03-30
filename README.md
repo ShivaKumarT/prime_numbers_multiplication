@@ -3,7 +3,7 @@
 Prime numbers multiplication table is an Erlang application. Its purpose is to print the multiplication table for the first N prime numbers. Generated an erlang script file `prime_numbers_multiplication` to run the application from the command line.
 
 ### System Requirements
--------------------
+
 + Operating System: Linux
 + Programming Language: Erlang v19+
 
