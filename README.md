@@ -84,5 +84,5 @@ Prime numbers multiplication table is an Erlang application. Its purpose is to p
 + We can scale the programe by dividing the N rows into P batches. Each batch contains specific number of rows. P erlang processes executes each batch parrallely. Once completion of execution of each process, combine the output and print it on STDOUT.With this approach, we can bring the run time complexity to O(n2/p) wher p is number of processes.
 
 ### N primes
-+ Current programe prints the multiplication table for N primes.
++ Current programe can print the multiplication table for N primes.
     
