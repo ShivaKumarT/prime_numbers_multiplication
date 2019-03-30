@@ -69,3 +69,20 @@ Prime numbers multiplication table is an Erlang application. Its purpose is to p
     31  93  155 217 341 403 527 589 713 899 961 
     
 ```
+### Approach
++ Generated the first N prime numbers
++ Printed first row with N prime numbers as N columns
++ Took the Nth row element from N primes and multiplied it with N primes except the first element
+    Nth row element or {current_row, first_column} * {first_row,current_column}
+    ex: 3 * 5, 3 * 11,3 * 17 etc
++ Printed line break for each row
++ Framed the format string to print the number within specified width and left aligned on STDOUT. 
+    width = number of digits in the square of larget number in N primes.
+    
+### Complexity
++ Rum time complexity of the current program is O(n2). 
++ We can scale the programe by dividing the N rows into P batches. Each batch contains specific number of rows. P erlang processes executes each batch parrallely. Once completion of execution of each process, combine the output and print it on STDOUT.With this approach, we can bring the run time complexity to O(n2/p) wher p is number of processes.
+
+### N primes
++ Current programe prints the multiplication table for N primes.
+    
