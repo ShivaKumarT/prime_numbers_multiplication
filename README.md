@@ -13,6 +13,23 @@ Prime numbers multiplication table is an Erlang application. Its purpose is to p
     $ cd prime_numbers_multiplication
     $ ./rebar3 escriptize
     $ cp _build/default/bin/prime_numbers_multiplication .
+    $ ./rebar3 eunit --module=prime_numbers_multiplication_tests
+    ===> Verifying dependencies...
+    ===> Compiling prime_numbers_multiplication
+    ===> Performing EUnit tests...
+    ...
+
+    Top 3 slowest tests (0.207 seconds, 90.0% of total time):
+    prime_numbers_multiplication_tests:first_5_test/0
+    0.071 seconds
+    prime_numbers_multiplication_tests:firt_1_test/0
+    0.068 seconds
+    prime_numbers_multiplication_tests:first_2_test/0
+    0.068 seconds
+    
+    Finished in 0.230 seconds
+    3 tests, 0 failures
+
     $ ./prime_numbers_multiplication 5
     2   3   5   7   11  
 
