@@ -72,11 +72,11 @@ Prime numbers multiplication table is an Erlang application. Its purpose is to p
 ### Approach
 + Generated the first N prime numbers
 + Printed first row with N prime numbers as N columns
-+ Took the Nth row element from N primes and multiplied it with N primes except the first element
-    Nth row element or {current_row, first_column} * {first_row,current_column}
++ Took the Nth row element from N primes and multiplied it with N primes except the first element\
+    Nth row element or {current_row, first_column} * {first_row,current_column}\
     ex: 3 * 5, 3 * 11,3 * 17 etc
 + Printed line break for each row
-+ Framed the format string to print the number within specified width and left aligned on STDOUT. 
++ Framed the format string to print the number within specified width and left aligned on STDOUT. \
     width = number of digits in the square of larget number in N primes.
     
 ### Complexity
