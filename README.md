@@ -76,7 +76,7 @@ Prime numbers multiplication table is an Erlang application. Its purpose is to p
     Nth row element or {current_row, first_column} * {first_row,current_column}\
     ex: 3 * 5, 3 * 11,3 * 17 etc
 + Printed line break for each row
-+ Framed the format string to print the number within specified width and left aligned on STDOUT. \
++ Framed the format string to print the number within the specified width and left aligned on STDOUT. \
     width = number of digits in the square of larget number in N primes.
     
 ### Complexity
